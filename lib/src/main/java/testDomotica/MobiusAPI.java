@@ -111,28 +111,6 @@ public class MobiusAPI {
 				Response response = client.newCall(request).execute();
 				String bodyString = response.body().string();
 				System.out.println(bodyString);
-		
-		
-//		OkHttpClient client = new OkHttpClient().newBuilder()
-//				  .build();
-//				MediaType mediaType = MediaType.parse("application/json;ty=9");
-//				RequestBody body = RequestBody.create("\n{\n\t\"m2m:grp\" : {\n\t\t\"rn\": \""+ resourceName +"\","
-//						+ "\n\t    \"mid\": [\n\t    \t\t\"Mobius/lamp1/COMMAND\",\n\t\t"
-//						+ "        \"Mobius/lamp2/COMMAND\",\n"
-//						+ "                \"Mobius/lamp3/COMMAND\"\n\t    ],\n\t"
-//						+ "    \"mnm\":10\n    }\n}\n", mediaType);
-//				Request request = new Request.Builder()
-//				  .url("http://127.0.0.1:7579/Mobius")
-//				  .method("POST", body)
-//				  .addHeader("X-M2M-RI", "123gsyuuiuihi45")
-//				  .addHeader("X-M2M-Origin", "S20170717074825768bp2l")
-//				  .addHeader("Content-Type", "application/json;ty=9")
-//				  .addHeader("Accept", "application/json")
-//				  .build();
-//				Response response = client.newCall(request).execute();
-//				bodyString = response.body().string();
-//				System.out.println("Gruppo assemblato con successo");
-//				System.out.println(bodyString);
 	}
 	
 	void groupDelete() throws IOException	{

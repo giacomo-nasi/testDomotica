@@ -102,7 +102,7 @@ public class MainDomotica {
 			    System.out.println("Stato del riscaldamento: "+ heatingStatus);
 			    System.out.println();
 			    
-			    Thread.sleep(5000);
+			    Thread.sleep(3000);
 			    
 			    LastMeasurementTemp = temp.getLatestContentInstance();
 			    presenceStatus = presenceSensor.getLatestContentInstance();
