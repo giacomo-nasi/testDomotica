@@ -20,6 +20,7 @@ un buzzer che indica lostato del riscaldamento (acceso o spento), delle lampadin
 (quantità di esse a discrezione dell'utilizzatore) e un sensore di presenza.
 Fatto ciò eseguendo il file MainDomotica.java si ottiene una gestione dei dispositivi creati: in base alla presenza o meno di qualcuno nella stanza le luci si accendono o spengono
 mentre il riscaldamento viene acceso al di sotto deic 19 °C e spento al di sopra dei 22 °C.
+Per effettuare la subscription alle misurazioni di un device eseguire il file TestSubscription.java, avendo cura di modificare il dispositivo di interesse. 
 
 
 
